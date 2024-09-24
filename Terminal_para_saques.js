@@ -25,9 +25,9 @@ function realizaSaque() {
         console.log("Por favor, retire seu dinheiro abaixo.");
         
         // Pergunta ao usuário se deseja realizar outro saque
-        var novaOp = prompt("Digite Y para realizar outro saque ou qualquer outra tecla para encerrar");
+        var novaOperacao = prompt("Digite Y para realizar outro saque ou qualquer outra tecla para encerrar");
 
-        if (novaOp === "Y" || novaOp === "y") { // Aceita tanto "Y" quanto "y" para facilitar
+        if (novaOperacao === "Y" || novaOperacao === "y") { // Aceita tanto "Y" quanto "y" para facilitar
             realizaSaque(); // Recursão para permitir novo saque
         } else {
             console.log("Atendimento encerrado. Obrigado por usar nosso terminal.");
